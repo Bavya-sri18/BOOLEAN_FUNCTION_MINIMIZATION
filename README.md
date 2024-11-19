@@ -9,12 +9,11 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 **Equipment Required:**
+ software-quartus prime, cuclone V
 
-Hardware – PCs, Cyclone II , USB flasher
-
-**Software – Quartus prime**
 
 **Theory**
+Boolean function minimization is the process of simplifying Boolean expressions, reducing the number of terms or literals without changing the functionality. Simplifying Boolean functions is essential for designing efficient digital circuits, as it reduces the number of gates required, minimizing cost, power consumption, and circuit complexity.
 
 **Logic Diagram**
 
@@ -35,16 +34,28 @@ Hardware – PCs, Cyclone II , USB flasher
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by: RegisterNumber:24900078 Bavya Sri.B
 
-
-**RTL realization**
+```
+module funct1(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+endmodule
+```
 
 **Output:**
+![ex-2 output 2](https://github.com/user-attachments/assets/f93f7435-79df-49f8-9d1a-9f72cc9de419)
+
 
 **RTL**
+![ex-2 output 1](https://github.com/user-attachments/assets/755662c4-526a-4d9c-9d16-936fedfbc4e6)
+
 
 **Timing Diagram**
+
+![ex-2 output 2](https://github.com/user-attachments/assets/a53eea57-b10e-4db4-9c08-0cde0095b9f9)
+
 
 **Result:**
 
