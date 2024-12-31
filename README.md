@@ -72,7 +72,8 @@ endmodule
 **RTL**
 ![ex-2 output 1](https://github.com/user-attachments/assets/587dc74b-2117-46e2-952a-1b3e4cfe4aeb)
 
-![ex-2a output1](https://github.com/user-attachments/assets/be6a7736-6570-4c56-9395-6d6b4e55a403)
+![swetha lusu](https://github.com/user-attachments/assets/28f760c9-f272-48d6-955d-efabf2aeace1)
+
 
 **Output:**
 ![ex-2 output 2](https://github.com/user-attachments/assets/f8e7ad71-fb73-4026-9286-372c5773fd5c)
